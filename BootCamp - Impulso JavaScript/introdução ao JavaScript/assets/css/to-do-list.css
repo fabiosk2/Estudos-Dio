@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+.container h1 {
+    padding-bottom: 30px;
+}
+
+.container .input {
+    padding-bottom: 30px;
+    
+}
+
+#texto {
+    height: 35px;
+    border-radius: 5px;
+}
+
+.botao {
+    height: 35px;
+    padding: 0px 15px;
+    margin-left: 10px;
+    background-color: rgb(64, 215, 238);
+    color: rgb(0, 149, 255);
+    border-radius: 5px;
+    border: 1px solid black;
+}
